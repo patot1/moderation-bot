@@ -2,14 +2,14 @@ import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 
 const config: BotConfig = {
-    token: 'TOKEN',                   // token
-    clientId: 'ID',                  // client id
-    mongoUri: 'mongodb+',           // mongo uri
+   token: 'MTM5MTA1MDU4NTA0NTcyOTMwMQ.GbLayE.Q5eZSCYv6_5E84Vz-A3D63djMHpTWf4PciXJ1Y', // token
+    clientId: '1391050585045729301',                  // client id
+    mongoUri: 'mongodb+srv://plix:<plix112233>@cluster0.prsk9in.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',           // mongo uri
     defaultPrefix: '!',
-    mainGuildId: 'ID',             // main guild id
+    mainGuildId: '1379798954895478816',             // main guild id
     defaultLanguage: 'en',        // default language
     dashboard: {
-        port: 3000,             // port for dashboard
+        port: 30120,             // port for dashboard
         secret: 'wickstudio',  // secret key
         callbackUrl: 'http://localhost:3000/auth/callback' // callback url
     }
